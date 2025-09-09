@@ -135,7 +135,7 @@ python apexsubenum.py -d example.com --gui
 ApexSubEnum is **for authorized use only**.  
 Always obtain **explicit permission** from domain owners before scanning.  
 
-⚠️ Unauthorized use may violate laws — especially in **Nepal**, where strict cybersecurity regulations apply (*e.g., social media API bans as of Sept 2025*).  
+ApexSubEnum is intended for authorized use only. Always obtain explicit permission from domain owners before scanning. Unauthorized scanning or enumeration may violate local, national, or international laws. Users are responsible for ensuring compliance with all applicable regulations in their region. 
 
 ---
 
