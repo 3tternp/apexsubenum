@@ -132,9 +132,6 @@ python apexsubenum.py -d example.com --gui
 
 ## ⚖️ Ethical Use  
 
-ApexSubEnum is **for authorized use only**.  
-Always obtain **explicit permission** from domain owners before scanning.  
-
 ApexSubEnum is intended for authorized use only. Always obtain explicit permission from domain owners before scanning. Unauthorized scanning or enumeration may violate local, national, or international laws. Users are responsible for ensuring compliance with all applicable regulations in their region. 
 
 ---
