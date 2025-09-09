@@ -72,7 +72,7 @@ It combines **high-speed async processing**, **20+ OSINT sources**, and **AI-pow
 ### Setup  
 
 ```bash
-git clone https://github.com/alex-apexsubenum/apexsubenum.git
+git clone https://github.com/3tternp/apexsubenum.git
 cd apexsubenum
 pip install -r requirements.txt
 ```
@@ -169,7 +169,7 @@ We welcome PRs and new ideas!
 
 - 💬 **X (Twitter):** `#ApexSubEnum` · `#BugBounty` · `#NepalCyberSec`  
 - 🐞 **Issues:** Submit via GitHub  
-- 📩 **Contact:** DM **@alex_apexsubenum** on X  
+- 📩 **Contact:** DM **@astra524** on X  
 
 ---
 
