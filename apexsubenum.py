@@ -18,6 +18,21 @@ try:
 except ImportError:
     OpenAI = None
 
+# ────────────────────────────────
+# Banner Function
+# ────────────────────────────────
+def print_banner():
+    banner = r"""
+     ___                        _____       _                       
+    /   |  ____  ____  ___     / ___/____  (_)___  ____ _____  _____
+   / /| | / __ \/ __ \/ _ \    \__ \/ __ \/ / __ \/ __ `/ __ \/ ___/
+  / ___ |/ /_/ / /_/ /  __/   ___/ / /_/ / / / / / /_/ / / / (__  ) 
+ /_/  |_/ .___/ .___/\___/   /____/ .___/_/_/ /_/\__,_/_/ /_/____/  
+       /_/   /_/                     /_/                            
+              ApexSubEnum v2.1 - Next-Gen Subdomain Enumeration
+    """
+    print(banner)
+
 class ApexSubEnum:
     def __init__(self, domain: str, config_file: str = 'config.yaml'):
         self.domain = domain
@@ -299,6 +314,7 @@ parser.add_argument('--gui', action='store_true', help="Launch GUI dashboard")
 args = parser.parse_args()
 
 # Run
+print_banner()
 tool = ApexSubEnum(args.domain)
 if args.gui:
     tool.run_gui()
