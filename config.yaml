@@ -1,0 +1,7 @@
+securitytrails_api_key: your_key
+censys_api_id: your_id
+censys_api_secret: your_secret
+shodan_api_key: your_key
+openai_api_key: your_openai_key
+resolvers_file: resolvers.txt
+massdns_path: /usr/local/bin/massdns
