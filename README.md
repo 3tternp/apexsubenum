@@ -15,7 +15,7 @@ GUI Dashboard: Lightweight Tkinter interface for non-technical users (e.g., audi
 Nepal Compliance: Avoids restricted social media APIs (per September 2025 ban) and aligns with Beema Samiti guidelines.
 Flexible Output: JSON, CSV, TXT formats with pipeline integration (e.g., Nmap, Burp).
 
-Benchmarks
+**Benchmarks**
 On tesla.com:
 
 Subdomains Found: ~1,500 (vs. Sublist3r: 800, Subfinder: 1,000, Amass: 1,200)
@@ -26,33 +26,55 @@ Installation
 Prerequisites
 
 Python: 3.8+
-MassDNS: Compile from github.com/blechschmidt/massdns
-Dependencies: Install via pip install aiohttp dnspython pyyaml requests tkinter openai (openai optional for LLM)
-API Keys (optional): SecurityTrails, Censys, Shodan, OpenAI
-Resolvers: Download a fresh resolvers.txt (e.g., from public-dns.info)
 
+MassDNS: Compile from github.com/blechschmidt/massdns
+
+Dependencies: Install via pip install aiohttp dnspython pyyaml requests tkinter openai (openai optional for LLM)
+
+API Keys (optional): SecurityTrails, Censys, Shodan, OpenAI
+
+Resolvers: Download a fresh resolvers.txt (e.g., from public-dns.info)
+```
 Setup
+
 git clone https://github.com/alex-apexsubenum/apexsubenum.git
+
 cd apexsubenum
+
 pip install -r requirements.txt
+
 # Compile MassDNS
+
 git clone https://github.com/blechschmidt/massdns.git
+
 cd massdns
+
 make
+
 sudo mv bin/massdns /usr/local/bin/
+
 cd ..
+
 # Configure API keys in config.yaml
 
 Sample config.yaml
+
 securitytrails_api_key: your_key
+
 censys_api_id: your_id
+
 censys_api_secret: your_secret
+
 shodan_api_key: your_key
+
 openai_api_key: your_openai_key
+
 resolvers_file: resolvers.txt
+
 massdns_path: /usr/local/bin/massdns
 
 Usage
+
 CLI
 # Basic passive enumeration
 python apexsubenum.py -d example.com -o subdomains.json
