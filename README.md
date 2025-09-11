@@ -10,7 +10,7 @@
 - Penetration testers 💻  
 - IT auditors 📊  
 
-It combines **high-speed async processing**, **20+ OSINT sources**, and **AI-powered wordlist generation**, while maintaining **compliance** (e.g., Beema Samiti guidelines for Nepal).  
+It combines **high-speed async processing**, **20+ OSINT sources**, and **AI-powered wordlist generation**, while maintaining **compliance**.  
 
 ---
 
